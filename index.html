@@ -11,6 +11,7 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -35,7 +36,7 @@
             <div class="tip__buttons">
               <button class="tip__button" id="5percent">5%</button>
               <button class="tip__button" id="10percent">10%</button>
-              <button class="tip__button" id="15percent">15%</button>
+              <button class="tip__button fifteen" id="15percent">15%</button>
               <button class="tip__button" id="25percent">25%</button>
               <button class="tip__button" id="50percent">50%</button>
               <input type="text" class="custom" placeholder="Custom" />
@@ -44,8 +45,10 @@
 
           <div class="people">
             <div class="people__count">
-              <div class="people__title">Number of People</div>
-              <span class="error-message">Can't be zero</span>
+              <p class="people__title">
+                Number of People
+                <span class="error-message">Can't be zero</span>
+              </p>
             </div>
 
             <div class="people__input">
@@ -77,11 +80,11 @@
       </form>
     </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/tracycod3r">Tracy</a>.
-    </div>
+    </footer>
   </body>
 </html>
